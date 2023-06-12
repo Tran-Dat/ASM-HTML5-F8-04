@@ -49,8 +49,6 @@ button {
     --height: 56px;
 
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
     min-width: 130px;
     height: var(--height);
     line-height: var(--height);
@@ -76,15 +74,11 @@ button {
 }
 
 .btn__icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-left: 10px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background: #fff;
-    box-shadow: 4px 3px 10px -1px rgba(191, 41, 0, 0.4);
 }
 
 /* =============== Header =============== */
@@ -262,7 +256,6 @@ button {
 }
 
 .hero__desc {
-    width: 391px;
     margin-top: 24px;
     font-size: 1.6rem;
     line-height: 1.88;
@@ -270,8 +263,6 @@ button {
 }
 
 .hero__row {
-    display: flex;
-    align-items: center;
     margin-top: 38px;
 }
 
@@ -280,13 +271,4 @@ button {
     min-width: 190px;
     font-size: 16px;
     box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
-}
-
-.hero__cta-link {
-    margin-left: 24px;
-    font-weight: 500;
-    font-size: 1.6rem;
-    line-height: 1;
-    text-decoration: underline;
-    color: #000958;
 }
